@@ -5,10 +5,24 @@ Songs are a way to express our emotion and harmony through vocal or instrumental
 
 # Dataset:
 A unique dataset is created which has 1000 song lyrics and labels the lyrics as sad or not sad. These lyrics are collected from different websites which lyrics are available publicly.
+# Data Collection:
+Dataset was collected from various open source Website of bengali song lyrics
+which are publicly available. After collecting 1000 lyrics we manually labeled the dataset
+as Sad = 1 and not sad = 0. In the dataset there are 567 not sad song and 433 sad song.
+# Data Preprocessing:
+In preprocessing part white space, comment, quotation symbol or other unwanted character were removed from the dataset.
+Then stopwords were removed which are available online to remove irrelevant words from the
+dataset.
+Word stemming was also used to get the root words.
+In feature extraction part count vectorizer, tfidf transformer, bigram and trigram
+model were used.
+
+![Preprocessing the dataset](Data_Preprocessing.png)
+
 # Methodology:
 Machine learning classifying algorithms like Multinomial Naive Bayes , K-Nearest Neighbours, Support Vector Machine, Logistic Regression, Random Forest, and Decision Tree Classifier were used. Then one boosting classifier XGBoost was used.
-For training we used 70% of the data and rest of the 30% for testing
-purpose as that is ideal. After training the models, we evaluated the models with the test
+For training, 70% of the data was used and the rest of the 30% was for testing
+purpose as that is ideal. After training the models, the models were evaluated with the test
 data based on Accuracy, Precision, Recall and F1 scores.
 
 ![Methodology](Methodology.png)
