@@ -7,6 +7,10 @@ Songs are a way to express our emotion and harmony through vocal or instrumental
 A unique dataset is created which has 1000 song lyrics and labels the lyrics as sad or not sad. These lyrics are collected from different websites which lyrics are available publicly.
 # Methodology:
 Machine learning classifying algorithms like Multinomial Naive Bayes , K-Nearest Neighbours, Support Vector Machine, Logistic Regression, Random Forest, and Decision Tree Classifier were used. Then one boosting classifier XGBoost was used.
+For training we used 70% of the data and rest of the 30% for testing
+purpose as that is ideal. After training the models, we evaluated the models with the test
+data based on Accuracy, Precision, Recall and F1 scores.
+
 ![Methodology](Methodology.png)
 
 # Result:
