@@ -17,7 +17,7 @@ Word stemming was also used to get the root words.
 In feature extraction part count vectorizer, tfidf transformer, bigram and trigram
 model were used.
 
-![Preprocessing the dataset](Data_Preprocessing.png)
+![Preprocessing the dataset](Preprocessing.png)
 
 # Methodology:
 Machine learning classifying algorithms like Multinomial Naive Bayes , K-Nearest Neighbours, Support Vector Machine, Logistic Regression, Random Forest, and Decision Tree Classifier were used. Then one boosting classifier XGBoost was used.
